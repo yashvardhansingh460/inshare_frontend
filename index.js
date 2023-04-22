@@ -15,7 +15,10 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "https://inshare-application-17svw2q9n-yashvardhansingh460-gmailcom.vercel.app";
+const baseURL = "https://inshare-application-rb5ix85zt-yashvardhansingh460-gmailcom.vercel.app";
+// const baseURL = "http://localhost:3000"
+// const baseURL = "https://innshare.herokuapp.com"
+//    const baseURL ="https://inshare-application-r9uaxf4xd-yashvardhansingh460-gmailcom.vercel.app"
 const uploadURL = `${baseURL}/api/files`;
 const emailURL = `${baseURL}/api/files/send`;
 
@@ -70,6 +73,7 @@ fileInput.addEventListener("change", () => {
 // sharing container listenrs
 copyURLBtn.addEventListener("click", () => {
     fileURL.select();
+    // console.log("yoyo");
     document.execCommand("copy");
     showToast("Copied to clipboard");
 });
@@ -120,6 +124,7 @@ const uploadFile = () => {
 };
 
 const onFileUploadSuccess = (res) => {
+    // console.log("hello_yoyo");
     fileInput.value = ""; // reset the input
     status.innerText = "Uploaded";
 
