@@ -15,7 +15,7 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "https://inshare-application-rb5ix85zt-yashvardhansingh460-gmailcom.vercel.app";
+const baseURL = "https://inshare-application-2cjbykj4n-yashvardhansingh460-gmailcom.vercel.app";
 // const baseURL = "http://localhost:3000"
 // const baseURL = "https://innshare.herokuapp.com"
 //    const baseURL ="https://inshare-application-r9uaxf4xd-yashvardhansingh460-gmailcom.vercel.app"
